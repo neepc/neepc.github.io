@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration | NEEPC 2027</title>
+  <meta name="description" content="The 3rd New England Economics PhD Students Conference, hosted by the Graduate Student Association of the Department of Economics at Brown University.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/img/mark.svg" alt=""><span>NEEPC</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <ul class="nav" id="nav">
+      <li><a href="./">Home</a></li>
+      <li><a href="program.html">Program</a></li>
+      <li><a href="call-for-papers.html">Call for Papers</a></li>
+      <li><a href="registration.html" aria-current="page">Registration</a></li>
+      <li><a href="venue.html">Venue &amp; Travel</a></li>
+      <li><a href="past.html">Past Conferences</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="page-head"><div class="wrap"><p class="eyebrow">NEEPC 2027</p><h1>Registration</h1><hr class="rule" style="margin-bottom:0"></div></section>
+  <div class="wrap"><div class="page-body"><p class="lead">Registration for NEEPC 2027 will open soon.</p></div></div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/img/mark-white.svg" alt=""><span>NEEPC</span></a>
+    <p>Organized by the Economics Graduate Student Association, Brown University<br>
+      Contact: <a href="mailto:TBA@brown.edu"><span class="tba" style="color:var(--brown)">email TBA</span></a> · <a href="past.html">Past conferences</a></p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.getElementById('nav');
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>
+</body>
+</html>
