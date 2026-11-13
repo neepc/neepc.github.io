@@ -28,7 +28,9 @@ def page(head, foot, title, description, main):
 
 
 def school(aff):
-    return aff.replace(" (visiting)", "")
+    # Only used for the university count; the page shows affiliations exactly as given.
+    aff = aff.replace("Visiting Student, ", "")
+    return "Brown" if aff == "Brown University" else aff
 
 
 def stats(p):

@@ -121,7 +121,7 @@ PROGRAMS = {
             {"id": "pitch2", "kind": "Pitch", "name": "Pitch Session 2", "time": "5:00–5:30pm", "rooms": [
                 {"room": "Room 108", "topic": "Applied Microeconomics II", "host": "Jiayi Liu", "talks": [
                     ("Sidharth Satya", "Brown", ""),
-                    ("Asad Tariq", "Brown (visiting)", ""),
+                    ("Asad Tariq", "Visiting Student, Brown", ""),
                     ("Alberto Cappello", "Boston College", ""),
                     ("Jiayi Liu", "Brown", ""),
                 ]},
@@ -228,7 +228,7 @@ PROGRAMS = {
                     ("Andrés Aradillas Fernández", "MIT", "ϵ-Minimax Approach for Weak IV Testing"),
                     ("Olena Bogdan", "Harvard", "Procuring Disruption: Reconnaissance Drones in Ukraine"),
                     ("Luis Henrique Ribeiro Linhares", "Boston University", "An Axiomatic Approach to Conformity"),
-                    ("Sidharth Satya", "Brown", "Sequential Search Under Summarization"),
+                    ("Sidharth Satya", "Brown University", "Sequential Search Under Summarization"),
                     ("Ke Mao", "Boston University", "From Shares to Ranks: Demand Estimation with Product-Rank Data"),
                 ]},
             ]},
