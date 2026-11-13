@@ -44,7 +44,7 @@ h3 { font-size: 1.35rem; }
 }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 68px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--brown); }
-.brand img { width: 30px; height: 40px; }
+.brand img { width: 36px; height: 48px; }
 .brand span { font-family: var(--serif); font-weight: 600; font-size: 1.6rem; letter-spacing: .06em; }
 .nav { display: flex; gap: 26px; list-style: none; margin: 0; padding: 0; }
 .nav a {
